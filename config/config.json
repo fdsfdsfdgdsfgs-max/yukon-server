@@ -7,7 +7,7 @@
     "database": {
         "host": "db.lvdbwtihjtlgunasfovh.supabase.co",
         "user": "postgres",
-        "password": "YOUR_SUPABASE_PASSWORD", 
+        "password": "clubpenguinforeverfrfr",
         "database": "postgres",
         "dialect": "postgres",
         "logging": false
