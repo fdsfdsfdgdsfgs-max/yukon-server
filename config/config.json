@@ -6,7 +6,7 @@
     },
     "database": {
         "host": "aws-0-us-east-1.pooler.supabase.com",
-        "user": "postgres",
+        "user": "postgres.lvdbwtihjtlgunasfovh",
         "password": "clubpenguinforeverfrfr",
         "database": "postgres",
         "dialect": "postgres",
