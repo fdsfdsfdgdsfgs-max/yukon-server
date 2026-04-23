@@ -5,7 +5,7 @@
         "loginKeyExpiry": 300
     },
     "database": {
-        "host": "db.lvdbwtihjtlgunasfovh.supabase.co",
+        "host": "aws-0-us-east-1.pooler.supabase.com",
         "user": "postgres",
         "password": "clubpenguinforeverfrfr",
         "database": "postgres",
