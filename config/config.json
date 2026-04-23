@@ -5,10 +5,10 @@
         "loginKeyExpiry": 300
     },
     "database": {
-        "host": "dpg-d7kr4o4m0tmc73aqsnpg-a",
-        "user": "fuh_user",
-        "password": "clubpenguinforeverfrfr",
-        "database": "fuh",
+        "host": "db.lvdbwtihjtlgunasfovh.supabase.co",
+        "user": "postgres",
+        "password": "YOUR_SUPABASE_PASSWORD", 
+        "database": "postgres",
         "dialect": "postgres",
         "logging": false
     },
