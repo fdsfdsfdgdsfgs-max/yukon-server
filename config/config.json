@@ -1,28 +1,25 @@
 {
     "crypto": {
-        "secret": "",
+        "secret": "fartttttttyyyyyyyyyy",
         "rounds": 10,
         "loginKeyExpiry": 300
     },
-      "database": {
-        "host": "postgresql://fuh_user:nW8tKdgCXzBUjEsPg0YGcUHZpsK9y2X8@dpg-d7kr4o4m0tmc73aqsnpg-a/fuh", 
+    "database": {
+        "host": "dpg-d7kr4o4m0tmc73aqsnpg-a",
         "user": "fuh_user",
         "password": "nW8tKdgCXzBUjEsPg0YGcUHZpsK9y2X8",
-        "database": "yukon"
-      },
+        "database": "fuh",
+        "dialect": "postgres",
+        "logging": false
+    },
     "socketio": {
-        "https": false,
-        "ssl": {
-            "cert": "/path/to/cert.crt",
-            "ca": "/path/to/ca.ca-bundle",
-            "key": "/path/to/key.key"
-        }
+        "https": false
     },
     "cors": {
-        "origin": "http://localhost:8080"
+        "origin": "*"
     },
     "rateLimit": {
-        "enabled": true,
+        "enabled": false,
         "addressConnectsPerSecond": 5,
         "addressEventsPerSecond": 50,
         "userEventsPerSecond": 10,
@@ -30,7 +27,8 @@
     },
     "worlds": {
         "Login": {
-            "host": "localhost",
+            "id": 100,
+            "host": "0.0.0.0",
             "port": 10000
         }
     },
