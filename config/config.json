@@ -5,11 +5,12 @@
         "loginKeyExpiry": 300
     },
     "database": {
-        "host": "aws-0-us-east-1.pooler.supabase.com",
+        "host": "db.lvdbwtihjtlgunasfovh.supabase.co",
         "user": "postgres.lvdbwtihjtlgunasfovh",
         "password": "clubpenguinforeverfrfr",
         "database": "postgres",
         "dialect": "postgres",
+        "port": 5432,
         "logging": false
     },
     "socketio": {
